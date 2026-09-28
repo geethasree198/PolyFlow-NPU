@@ -1,0 +1,34 @@
+# Build and simulation artifacts
+*.vvp
+*.vcd
+*.log
+obj_dir/
+# Cadence simulation & synthesis artifacts
+output/
+xcelium.d/
+waves.shm/
+.simvision/
+xrun.history
+fv/
+genus.cmd*
+genus.log*
+*_netlist.*
+*.sdf
+
+*.o
+*.d
+*.a
+dump.vcd
+tb/dumps/
+scratch/
+
+# Local reference and working files
+local/
+
+# TeX source files and intermediate figure build artifacts
+*.tex
+*.pdf
+*.svg
+*.dot
+*.aux
+*.out
